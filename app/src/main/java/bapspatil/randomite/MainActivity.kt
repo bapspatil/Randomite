@@ -27,15 +27,19 @@ class MainActivity : AppCompatActivity() {
         }
 
         reset_iv.setOnClickListener {
-            player1_tv.text = "0"
-            player2_tv.text = "0"
-            random_tv.text = "0"
-            prevValue = -1
-            turn = PLAYER_ONE_TURN
-            player1_iv.imageResource = R.drawable.player1_outline
-            player2_iv.imageResource = R.drawable.player2
-            longToast("Game reset! Player 1, it's your turn!")
+            reset()
         }
+    }
+
+    private fun reset() {
+        player1_tv.text = "0"
+        player2_tv.text = "0"
+        random_tv.text = "0"
+        prevValue = -1
+        turn = PLAYER_ONE_TURN
+        player1_iv.imageResource = R.drawable.player1_outline
+        player2_iv.imageResource = R.drawable.player2
+        longToast("Game reset! Player 1, it's your turn!")
     }
 
     private fun randomize() {
