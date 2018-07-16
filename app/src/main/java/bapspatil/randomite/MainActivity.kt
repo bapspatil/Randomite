@@ -2,7 +2,6 @@ package bapspatil.randomite
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import bapspatil.randomite.R.id.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.imageResource
@@ -39,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun randomize() {
-        val randomNumber = random.nextInt(100) + 1
+        val randomNumber = random.nextInt(50) + 1
         random_tv.text = randomNumber.toString()
         if(abs(prevValue!!.minus(randomNumber)) <= 5) {
             if (turn == PLAYER_ONE_TURN) {
