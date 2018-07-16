@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7D5BA6</color>
+    <color name="colorPrimaryDark">#694B8D</color>
+    <color name="colorAccent">#FC6471</color>
+    <color name="backgroundColor">#ACFCD9</color>
+    <color name="gainsboro">#DDDDDD</color>
+    <color name="mediumTurquoise">#55D6BE</color>
+</resources>
