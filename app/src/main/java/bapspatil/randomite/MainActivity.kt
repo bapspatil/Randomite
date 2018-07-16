@@ -2,6 +2,7 @@ package bapspatil.randomite
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import bapspatil.randomite.R.id.player2_iv
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.imageResource
