@@ -7,6 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.imageResource
 import org.jetbrains.anko.longToast
+import org.jetbrains.anko.startActivity
 import java.lang.Math.abs
 import java.util.*
 
@@ -28,6 +29,10 @@ class MainActivity : AppCompatActivity() {
 
         reset_iv.setOnClickListener {
             reset()
+        }
+
+        about_iv.setOnClickListener {
+            startActivity<AboutActivity>()
         }
     }
 
